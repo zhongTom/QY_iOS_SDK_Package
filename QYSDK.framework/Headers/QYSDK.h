@@ -158,6 +158,8 @@ typedef NS_ENUM(NSInteger, QYLanguage) {
  */
 - (QYConversationManager *)conversationManager;
 
+- (YSFAppInfoManager *)infoManager;
+
 /**
  *  获取当前设置的用户信息ID
  *
@@ -192,6 +194,7 @@ typedef NS_ENUM(NSInteger, QYLanguage) {
  */
 - (void)setUserInfo:(QYUserInfo *)userInfo userInfoResultBlock:(QYResultCompletionBlock)userInfoBlock;
 
+- (void)login:(QYCompletionBlock)completion;
 /**
  *  注销当前帐号，App帐号注销时调用
  *
