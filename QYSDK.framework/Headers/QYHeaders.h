@@ -25,6 +25,5 @@
 #import "QYAction.h"
 #import "QYEvaluation.h"
 #import "QYWorkOrderListViewController.h"
-#import "QYAppInfoManager.h"
 
 #endif
