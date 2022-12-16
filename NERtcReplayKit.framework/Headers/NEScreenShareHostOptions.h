@@ -32,6 +32,11 @@ NS_ASSUME_NONNULL_BEGIN
  */
 @property (nonatomic, weak) id<NEScreenShareHostDelegate> delegate;
 
+/**
+ * 附加信息，可用来向Broadcast传递数据
+ */
+@property (nonatomic, strong) NSDictionary *extraInfoDict;
+
 @end
 
 NS_ASSUME_NONNULL_END

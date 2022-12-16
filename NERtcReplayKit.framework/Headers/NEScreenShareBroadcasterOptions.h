@@ -62,6 +62,11 @@ NS_ASSUME_NONNULL_BEGIN
  */
 @property (nonatomic, assign) int desiredSampleRate;
 
+/**
+ * 附加信息
+ */
+@property (nonatomic, strong) NSDictionary *extraInfoDict;
+
 @end
 
 NS_ASSUME_NONNULL_END

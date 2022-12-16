@@ -9,10 +9,28 @@
 @class NEScreenShareBroadcasterOptions;
 
 NS_ASSUME_NONNULL_BEGIN
+
+@protocol NEScreenShareSampleHandlerDelegate <NSObject>
+
+/**
+ * Host主动要求停止Broadcast
+ * 应在此方法内调用SampleHandle的`finishBroadcastWithError:(NSError *)error`
+ */
+@optional
+- (void)onRequestToFinishBroadcastWithError:(NSError *)error;
+
+@end
+
 API_AVAILABLE(ios(11.0))
 @interface NEScreenShareSampleHandler : NSObject
 
 + (instancetype)sharedInstance;
+- (instancetype)init NS_UNAVAILABLE;
+
+/**
+ *  事件代理
+ */
+@property (nonatomic, weak)id<NEScreenShareSampleHandlerDelegate> delegate;
 
 /**
  *  在Broadcast SampleHandler中`broadcastStartedWithSetupInfo:`中调用

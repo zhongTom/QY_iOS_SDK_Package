@@ -33,6 +33,8 @@ typedef NS_ENUM(NSUInteger, NEScreenShareVideoRotationType) {
 @property (nonatomic, assign)NEScreenShareVideoRotationType rotation;
 ///视频数据Buffer
 @property (nonatomic, strong)NSData *videoData;
+///视频额外附加信息
+@property (nonatomic, strong)NSDictionary *extraInfoDict;
 
 @end
 
@@ -50,5 +52,7 @@ typedef NS_ENUM(NSUInteger, NEScreenShareVideoRotationType) {
 @property (nonatomic, assign)uint64_t samplesPerChannel;
 ///音频PCM数据Buffer
 @property (nonatomic, strong)NSData *audioData;
+///音频额外附加信息
+@property (nonatomic, strong)NSDictionary *extraInfoDict;
 
 @end

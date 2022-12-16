@@ -13,7 +13,7 @@ FOUNDATION_EXPORT double NERtcReplayKitVersionNumber;
 //! Project version string for NERtcReplayKit.
 FOUNDATION_EXPORT const unsigned char NERtcReplayKitVersionString[];
 
-#define NERtcRelayKitCommitHASH 20220816
+#define NERtcRelayKitCommitHASH 731dc75
 
 // In this header, you should import all the public headers of your framework using statements like #import <NERtcReplayKit/PublicHeader.h>
 //Broadcast Related

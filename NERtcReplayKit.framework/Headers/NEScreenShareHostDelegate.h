@@ -27,6 +27,8 @@ NS_ASSUME_NONNULL_BEGIN
 /// 共享完成的回调
 - (void)onBroadcastFinished;
 
+/// 自定义消息通知
+- (void)onNERtcReplayKitNotifyCustomInfo:(NSDictionary *)Info;
 
 /// 音频帧回调
 - (void)onReceiveAudioFrame:(NEScreenShareAudioFrame *)audioFrame;

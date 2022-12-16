@@ -1,13 +1,13 @@
 Pod::Spec.new do |s|
 
     s.name     = 'QY_iOS_SDK_Package'
-    s.version  = '7.11.1'
+    s.version  = '7.11.2'
     s.license  = { :"type" => "Copyright",
                    :"text" => " Copyright 2021 Netease \n"}  
     s.summary  = '网易七鱼客服访客端 iOS SDK'
     s.homepage = 'https://qiyukf.com'
     s.author   = { 'qiyukf' => 'yunshangfu@126.com' }
-    s.source   = { :git => 'https://github.com/zhongTom/QY_iOS_SDK_Package.git', :tag => "7.11.1" }
+    s.source   = { :git => 'https://github.com/zhongTom/QY_iOS_SDK_Package.git', :tag => "7.11.2" }
     s.platform = :ios, '9.0'
     
     s.vendored_frameworks = '**/NERtcReplayKit.framework'
