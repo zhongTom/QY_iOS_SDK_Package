@@ -177,6 +177,11 @@ typedef void (^QYFileCompletion)(NSString *fileName, NSString *filePath);
  *  是否发起视频客服
  */
 @property (nonatomic, assign) BOOL isVideoServer;
+/**
+ *  是否支持屏幕共享
+ *  如果需要使用屏幕共享功能，需要同时开启isVideoServer和isScreenShare
+ */
+@property (nonatomic, assign) BOOL isScreenShare;
 
 /** 以下为客服相关接口 **/
 
@@ -297,6 +302,10 @@ typedef void (^QYEvaluationBlock)(QYEvaluactionData *data);
 typedef void (^QYEvaluationCompletion)(QYEvaluationState state);
 
 /**
+ *  会话前强制人工满意度评价事件，自定义视图写在此回调中（web端可配置关闭，默认关闭）
+ */
+@property (nonatomic, copy) QYEvaluationBlock preSessionEvaluationBlock;
+/**
  *  人工满意度评价事件
  */
 @property (nonatomic, copy) QYEvaluationBlock evaluationBlock;
@@ -310,13 +319,24 @@ typedef void (^QYEvaluationCompletion)(QYEvaluationState state);
  *  发送人工满意度评价结果
  */
 - (void)sendEvaluationResult:(QYEvaluactionResult *)result completion:(QYEvaluationCompletion)completion;
-
+/**
+ *  上报再次邀评功能，用户评价的结果 YES 成功评价  NO 放弃评价
+ *  需要配合preSessionEvaluationBlock使用，会话中的评价弹框不需要调用此方法
+ *  开启了再次邀评，不调用此方法会导致无法正常进线
+ */
+- (void)reportEvaluationResult:(BOOL)result data:(QYEvaluactionData *)data;
 /**
  *  发送机器人满意度评价结果
  */
 - (void)sendRobotEvaluationResult:(QYEvaluactionResult *)result completion:(QYEvaluationCompletion)completion;
-
-
+/**
+ *  导航栏左侧点击返回时，是否需要弹出满意度评价
+ *  isOpenAlert:是否弹出弹框（确认退出对话？）
+ *  isOpenEvaluation:点击结束会话时，是否需要弹出满意度评价
+ *  注意：想要弹出评价的弹框，必须同时开启上述两个开关。
+ *  该方法需要在导航栏左侧返回按钮的点击事件时调用，并且将popViewControllerAnimated放在complete中；如果是present方式，则需要在关闭界面的点击事件中调用此方法
+ */
+- (void)showEvaluationAlert:(BOOL)isOpenAlert openEvaluation:(BOOL)isOpenEvaluation complete:(QYCompletion)complete;
 @end
 
 
