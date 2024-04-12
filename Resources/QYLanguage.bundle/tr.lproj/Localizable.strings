@@ -197,7 +197,7 @@
 "QYToastStringLeftConsultation" = "Danışmadan ayrıldınız";
 "QYToastStringFillInfoTip" = "Bilgileri doldurmak için lütfen aşağıdaki butona tıklayın";
 "QYToastStringUnknownError" = "Bilinmeyen hata";
-"QYStringOrderProcess" = "İş emri ilerlemesi";
+"QYStringOrderProcess" = "İş emri kaydı";
 "QYToastStringRequestFail" = "İstek başarısız";
 "QYMessageStringWorkOrderMsg" = "[İş Emri Mesajı]";
 "QYToastStringPlayingSpeaker" = "Hoparlörler ile çalınıyor";
@@ -331,3 +331,30 @@
 "QYButtonStringEvaluateImmediately" = "Şimdi değerlendir";
 "QYMessageStringMiniProgramCard" = "[Mini program kartı]";
 "QYToastStringLoadingWait" = "Şu anda yükleniyor, lütfen bekleyin...";
+"QYStringConnectHuman" = "Manuel müşteri servisi";
+"QYStringAllAttachments" = "Tüm %lu eklerini görüntüle";
+"QYStringAttachmentNum" = "Toplam %lu ek";
+"QYButtonStringGiveUp" = "İptal";
+"QYButtonStringSubmitEvaluationNavi" = "Değerlendir ve Kapat";
+"QYButtonStringCloseSession" = "Oturumdan Çık";
+"QYButtonStringLeaveSession" = "Geçici Ayrılma";
+"QYToastStringEvaluationLimit" = "Yorum sayısı maksimuma ulaştı";
+"QYButtonStringWaitingConnect" = "Bağlanıyor, lütfen bekleyin...";
+"QYToastStringPreCloseSession" = "Canlı temsilci için ön sorgulama gereklidir. Oturumdan ayrılmak istediğinize emin misiniz?";
+"QYButtonStringIconAppend" = "tamirat";
+"QYButtonStringOrderSearchHolder" = "Lütfen bilet tipini giriniz";
+"QYButtonStringOrderStatus" = "Tüm iş emri durumu";
+"QYButtonStringOrderSort" = "Göre sırala %@";
+"QYButtonStringCreateTime" = "yaratma zamanı";
+"QYButtonStringUpdateTime" = "Güncelleme zamanı";
+"QYButtonStringBuCaiLiao" = "Eklenecek malzemeler";
+"QYButtonStringOrderHangUp" = "telefonu kapatmak";
+"QYButtonStringOrderAppendInfo" = "Ek Bilgiler";
+"QYButtonStringOrderNeedAppendInfo" = "Ek bilgi gerekli";
+"QYButtonStringOrderNeedAppendTitle" = "Şu anda aşağıdaki bilgileri tamamlamanız gerekiyor";
+"QYMessageStringFailForSensitiveWords" = "Mesaj hassas kelimeler içeriyor";
+
+
+
+
+
