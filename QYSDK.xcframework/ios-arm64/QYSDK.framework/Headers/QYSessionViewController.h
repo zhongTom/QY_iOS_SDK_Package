@@ -234,6 +234,11 @@ typedef void (^QYFileCompletion)(NSString *fileName, NSString *filePath);
 - (void)sendFileName:(NSString *)fileName filePath:(NSString *)filePath;
 
 /**
+ *  发送位置消息
+ */
+- (void)sendLocation:(NSDictionary *)locationInfoDic;
+
+/**
  *  发送商品信息展示
  */
 - (void)sendCommodityInfo:(QYCommodityInfo *)commodityInfo;
@@ -252,7 +257,10 @@ typedef void (^QYFileCompletion)(NSString *fileName, NSString *filePath);
  *  @param completion 退出完成回调
  */
 - (void)closeSession:(BOOL)popViewController completion:(QYCompletion)completion;
-
+/**
+ *  理想专用，本地化环境挂掉以后，切换SAAS时，需要调用此方法
+ */
+- (void)closeSession;
 /**
  *  拍摄视频
  *  自动发送

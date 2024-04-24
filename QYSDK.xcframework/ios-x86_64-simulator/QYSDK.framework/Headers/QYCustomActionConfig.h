@@ -12,6 +12,7 @@
 
 @class QYAction;
 @class QYSelectedCommodityInfo;
+@class QYSelectedLocationInfo;
 
 /**
  *  退出排队结果类型
@@ -69,6 +70,12 @@ typedef void (^QYShowBotCustomInfoBlock)(NSArray *array);
  *  bot商品卡片按钮点击事件回调
  */
 typedef void (^QYSelectedCommodityActionBlock)(QYSelectedCommodityInfo *commodityInfo);
+
+/**
+ *  位置卡片点击回调用
+ */
+//typedef void (^QYSelectedLocationActionBlock)(QYSelectedLocationInfo *locationInfo);
+typedef void (^QYSelectedLocationActionBlock)(NSDictionary *dict);
 
 /**
  *  扩展视图点击回调
@@ -152,6 +159,11 @@ typedef void (^QYPermissionBlock)(void);
 @property (nonatomic, copy) QYSelectedCommodityActionBlock commodityActionBlock;
 
 /**
+ *  bot商品卡片按钮点击事件
+ */
+@property (nonatomic, copy) QYSelectedLocationActionBlock locationActionBlock;
+
+/**
  *  扩展视图点击
  */
 @property (nonatomic, copy) QYExtraViewClickBlock extraClickBlock;
@@ -191,6 +203,13 @@ typedef void (^QYPermissionBlock)(void);
  *  默认使用七鱼的弹框效果，默认文案：请在iPhone的“设置-隐私-相机”选项中，允许访问你的相册。
  */
 @property (nonatomic, copy) QYPermissionBlock cameraPermissionBlock;
+
+/**
+ *  位置权限请求回调
+ *  请求权限被拒绝后，再次请求权限时会回调，如果实现该回调，则UI和跳转效果完全由用户自己实现。
+ *  默认使用七鱼的弹框效果，默认文案：请在iPhone的“设置-隐私-位置”选项中，允许访问你的位置访问。
+ */
+@property (nonatomic, copy) QYPermissionBlock locationPermissionBlock;
 
 /**
  *  麦克风权限请求回调

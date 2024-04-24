@@ -18,7 +18,7 @@
 		</data>
 		<key>Headers/QYCustomActionConfig.h</key>
 		<data>
-		QognF14fb0ET6lnqNW3T2GrD2vU=
+		Iwje3JpzLYmE/Rj9SuCG6hckbsU=
 		</data>
 		<key>Headers/QYCustomCommodityInfo.h</key>
 		<data>
@@ -98,7 +98,7 @@
 		</data>
 		<key>Headers/QYSDK.h</key>
 		<data>
-		h7KNooRaKj8w/c5ApwmXxriy/dI=
+		ktDCPRcsUO2AG4vCcxheZiWCRuM=
 		</data>
 		<key>Headers/QYSDKOption.h</key>
 		<data>
@@ -118,7 +118,7 @@
 		</data>
 		<key>Headers/QYSessionViewController.h</key>
 		<data>
-		er0/VcVpBQ/5IFq3IitPfPjftr4=
+		k1RyoToAhIQrVLg641rb5CiCDtw=
 		</data>
 		<key>Headers/QYSource.h</key>
 		<data>
@@ -188,11 +188,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			QognF14fb0ET6lnqNW3T2GrD2vU=
+			Iwje3JpzLYmE/Rj9SuCG6hckbsU=
 			</data>
 			<key>hash2</key>
 			<data>
-			T3BPm2CoqEjpmQiQaiZjsdxVWXPVseZJqWEQxTbtVZw=
+			f/+By5xzrKhGpz5ti3Nq6O8PJP0Q+AG6kMzSlyMTXDk=
 			</data>
 		</dict>
 		<key>Headers/QYCustomCommodityInfo.h</key>
@@ -408,11 +408,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			h7KNooRaKj8w/c5ApwmXxriy/dI=
+			ktDCPRcsUO2AG4vCcxheZiWCRuM=
 			</data>
 			<key>hash2</key>
 			<data>
-			fQXjF0/UhtxBiiRHulwZ8wPJ1fI0U/xdyQlQdm9pMqE=
+			qn7BwFQKOo1tyno4QWSl06b+LQ4QVRBljZup/w2gJ7E=
 			</data>
 		</dict>
 		<key>Headers/QYSDKOption.h</key>
@@ -463,11 +463,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			er0/VcVpBQ/5IFq3IitPfPjftr4=
+			k1RyoToAhIQrVLg641rb5CiCDtw=
 			</data>
 			<key>hash2</key>
 			<data>
-			9AopUQt5AUR6u6V7UQe/WCenYQUuFRdEz8rfk6lbwKw=
+			yc+Xx7Z/wLC96QefnWiK5kuZycplIqYyh9qLLX3kbAg=
 			</data>
 		</dict>
 		<key>Headers/QYSource.h</key>

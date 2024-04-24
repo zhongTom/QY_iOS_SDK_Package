@@ -84,7 +84,7 @@ typedef NS_ENUM(NSInteger, QYLanguage) {
  *
  *  @return SDK单例
  */
-+ (instancetype)sharedSDK;
+ + (instancetype)sharedSDK;
 
 /**
  *  获取七鱼SDK版本号
