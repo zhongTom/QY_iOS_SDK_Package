@@ -18,7 +18,7 @@
 		</data>
 		<key>Headers/QYCustomActionConfig.h</key>
 		<data>
-		Iwje3JpzLYmE/Rj9SuCG6hckbsU=
+		hyUCaQ/dBSTWXvkobGEx8gg8vIc=
 		</data>
 		<key>Headers/QYCustomCommodityInfo.h</key>
 		<data>
@@ -62,7 +62,11 @@
 		</data>
 		<key>Headers/QYHeaders.h</key>
 		<data>
-		AQ5HPnruwcKgtgIlCAndI5f98oQ=
+		lAzG5cHU+65GX/SnTYJCrWW3H/Y=
+		</data>
+		<key>Headers/QYMessageCardModel.h</key>
+		<data>
+		N42vNdeRo9u/RwC/E7wHiKXWFwA=
 		</data>
 		<key>Headers/QYMessageInfo.h</key>
 		<data>
@@ -98,7 +102,7 @@
 		</data>
 		<key>Headers/QYSDK.h</key>
 		<data>
-		ktDCPRcsUO2AG4vCcxheZiWCRuM=
+		h7KNooRaKj8w/c5ApwmXxriy/dI=
 		</data>
 		<key>Headers/QYSDKOption.h</key>
 		<data>
@@ -118,7 +122,7 @@
 		</data>
 		<key>Headers/QYSessionViewController.h</key>
 		<data>
-		k1RyoToAhIQrVLg641rb5CiCDtw=
+		4xc/govVMbDkjSXpLvIGpOs9Pk8=
 		</data>
 		<key>Headers/QYSource.h</key>
 		<data>
@@ -142,7 +146,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		32Ircd1fBvZuJJ1FkDClPP6lZN8=
+		LMUmvbWZ5Ra1WNJexEoemW58e8w=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -188,11 +192,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Iwje3JpzLYmE/Rj9SuCG6hckbsU=
+			hyUCaQ/dBSTWXvkobGEx8gg8vIc=
 			</data>
 			<key>hash2</key>
 			<data>
-			f/+By5xzrKhGpz5ti3Nq6O8PJP0Q+AG6kMzSlyMTXDk=
+			h+TGs1WHRS7kjRlPhm+wQ3ekYTyPFoooxcUdxzNWkL8=
 			</data>
 		</dict>
 		<key>Headers/QYCustomCommodityInfo.h</key>
@@ -309,11 +313,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			AQ5HPnruwcKgtgIlCAndI5f98oQ=
+			lAzG5cHU+65GX/SnTYJCrWW3H/Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			juJbITmxiy9KMxcklu4/dQ+0b1rkVfTSlhWLwZE0/Pc=
+			Z+6TgFeuOZjuNRZnZ4S0n60nSC3nEl2uvLweCQpsA+8=
+			</data>
+		</dict>
+		<key>Headers/QYMessageCardModel.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			N42vNdeRo9u/RwC/E7wHiKXWFwA=
+			</data>
+			<key>hash2</key>
+			<data>
+			Ji2D05o4Y9BLyGNfh6LJJkY6+mZ9QTged7m2buFSUxI=
 			</data>
 		</dict>
 		<key>Headers/QYMessageInfo.h</key>
@@ -408,11 +423,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ktDCPRcsUO2AG4vCcxheZiWCRuM=
+			h7KNooRaKj8w/c5ApwmXxriy/dI=
 			</data>
 			<key>hash2</key>
 			<data>
-			qn7BwFQKOo1tyno4QWSl06b+LQ4QVRBljZup/w2gJ7E=
+			fQXjF0/UhtxBiiRHulwZ8wPJ1fI0U/xdyQlQdm9pMqE=
 			</data>
 		</dict>
 		<key>Headers/QYSDKOption.h</key>
@@ -463,11 +478,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			k1RyoToAhIQrVLg641rb5CiCDtw=
+			4xc/govVMbDkjSXpLvIGpOs9Pk8=
 			</data>
 			<key>hash2</key>
 			<data>
-			yc+Xx7Z/wLC96QefnWiK5kuZycplIqYyh9qLLX3kbAg=
+			3Y46q5iwv0wDek9xlRB6lOp3xKIPM9UHfLhW5LB8P8M=
 			</data>
 		</dict>
 		<key>Headers/QYSource.h</key>

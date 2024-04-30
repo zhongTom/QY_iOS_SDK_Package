@@ -13,6 +13,7 @@
 @class QYStaffInfo;
 @class QYCommodityInfo;
 @class QYSelectedCommodityInfo;
+@class QYMessageCardModel;
 
 
 /**
@@ -140,6 +141,11 @@ typedef void (^QYFileCompletion)(NSString *fileName, NSString *filePath);
 @property (nonatomic, assign) BOOL canCopyCommodityInfo;
 
 /**
+ *  卡片消息展示
+ */
+@property (nonatomic, strong) QYMessageCardModel *cardInfo;
+
+/**
  *  人工客服信息
  */
 @property (nonatomic, strong) QYStaffInfo *staffInfo;
@@ -234,11 +240,6 @@ typedef void (^QYFileCompletion)(NSString *fileName, NSString *filePath);
 - (void)sendFileName:(NSString *)fileName filePath:(NSString *)filePath;
 
 /**
- *  发送位置消息
- */
-- (void)sendLocation:(NSDictionary *)locationInfoDic;
-
-/**
  *  发送商品信息展示
  */
 - (void)sendCommodityInfo:(QYCommodityInfo *)commodityInfo;
@@ -248,6 +249,16 @@ typedef void (^QYFileCompletion)(NSString *fileName, NSString *filePath);
  */
 - (void)sendSelectedCommodityInfo:(QYSelectedCommodityInfo *)commodityInfo;
 
+/**
+ *  发送位置消息
+ *  也就是发送卡片消息,这里专门为理想做了个发送地址的方法
+ */
+- (void)sendLocation:(NSDictionary *)locationInfoDic;
+
+/**
+ *  发送卡片消息
+ */
+- (void)sendCardInfo:(QYMessageCardModel *)cardInfo;
 
 /** 以下为开放能力接口 **/
 
@@ -261,6 +272,7 @@ typedef void (^QYFileCompletion)(NSString *fileName, NSString *filePath);
  *  理想专用，本地化环境挂掉以后，切换SAAS时，需要调用此方法
  */
 - (void)closeSession;
+
 /**
  *  拍摄视频
  *  自动发送
