@@ -309,6 +309,11 @@ typedef NS_ENUM(NSInteger, QYLanguage) {
          userInfoResultBlock:(QYResultCompletionBlock)userInfoBlock
         authTokenResultBlock:(QYCompletionBlock)authTokenBlock;
 
+
+/**
+ *  理想专用，重新请求后台样式配置
+ */
+- (void)loadStyleConfigComplete:(QYCompletionBlock)completion;
 /**
  *  注册云信自定义消息解析器，仅融合SDK使用
  *
