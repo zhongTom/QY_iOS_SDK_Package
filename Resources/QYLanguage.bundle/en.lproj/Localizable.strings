@@ -292,6 +292,8 @@
 "QYStringSaturday" = "Saturday";
 "QYToastStringRemindError" = "Failed to remind";
 "QYToastStringNoCameraPermission" = "No access to camera";
+"QYToastStringNoLocationPermission" = "没有位置权限";
+"QYToastStringLocationPermissionGuide" = "您的位置信息将被用于查找附近的理想汽车门店、服务及充电网点、推荐内容和发布位置动态、使用手机钥匙控制车辆、使用地图导航及寻找定位车辆、充电服务、保险理赔服务、取送车服务。";
 "QYToastStringFileOpenOtherApps" = "Files of this type need to be “opened in other APPs”";
 "QYToastStringInQueueNumberTip" = "Queuing. You are in the %ldth position. You’ll be automatically connected when it’s your turn.";
 "QYToastStringSendConfirm" = "Sure to send?";

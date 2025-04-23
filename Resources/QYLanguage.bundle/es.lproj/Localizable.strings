@@ -301,6 +301,8 @@
 "QYStringSaturday" = "Sábado";
 "QYToastStringRemindError" = "Error al recordar";
 "QYToastStringNoCameraPermission" = "No se puede acceder a la cámara";
+"QYToastStringNoLocationPermission" = "没有位置权限";
+"QYToastStringLocationPermissionGuide" = "您的位置信息将被用于查找附近的理想汽车门店、服务及充电网点、推荐内容和发布位置动态、使用手机钥匙控制车辆、使用地图导航及寻找定位车辆、充电服务、保险理赔服务、取送车服务。";
 "QYToastStringFileOpenOtherApps" = "Este tipo de archivos tienen que “abrirse con otras aplicaciones”";
 "QYToastStringInQueueNumberTip" = "En cola. Estás en la posición %ld. Accederás automáticamente cuando llegue tu turno.";
 "QYToastStringSendConfirm" = "¿Enviar?";

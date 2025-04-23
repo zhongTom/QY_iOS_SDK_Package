@@ -292,6 +292,8 @@
 "QYStringSaturday" = "토요일";
 "QYToastStringRemindError" = "독촉 알림 보내기 실패";
 "QYToastStringNoCameraPermission" = "카메라 접근 권한 없음";
+"QYToastStringNoLocationPermission" = "没有位置权限";
+"QYToastStringLocationPermissionGuide" = "您的位置信息将被用于查找附近的理想汽车门店、服务及充电网点、推荐内容和发布位置动态、使用手机钥匙控制车辆、使用地图导航及寻找定位车辆、充电服务、保险理赔服务、取送车服务。";
 "QYToastStringFileOpenOtherApps" = "해당 파일의 유형을 “다른APP으로 열기”로 열어 주십시오";
 "QYToastStringInQueueNumberTip" = "대기 중입니다. %ld 위로 기다리고 있습니다. 차례가 되면 자동적으로 연결될 예정입니다.";
 "QYToastStringSendConfirm" = "저장 성공";
