@@ -27,6 +27,28 @@
 @interface QYCommodityInfo : NSObject
 
 /**
+ *  商品/订单 卡片的样式
+ *  0 ：默认样式， 1：悬浮样式
+ */
+@property (nonatomic, assign) NSInteger cardShowStyle;
+
+/**
+ *  订单时间
+ */
+@property (nonatomic, copy) NSString *orderTime;
+/**
+ *  订单状态
+ */
+@property (nonatomic, copy) NSString *orderStatus;
+//支付金额
+@property (nonatomic, copy) NSString *payMoney;
+//价格
+@property (nonatomic, copy) NSString *price;
+//支付金额
+@property (nonatomic, copy) NSString *originalPrice;
+//订单数量
+@property (nonatomic, copy) NSString *orderCount;
+/**
  *  商品图片链接，字符数要求小于1000
  */
 @property (nonatomic, copy) NSString *pictureUrlString;

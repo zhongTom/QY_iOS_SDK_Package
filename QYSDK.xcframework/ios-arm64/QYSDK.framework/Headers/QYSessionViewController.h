@@ -14,7 +14,7 @@
 @class QYCommodityInfo;
 @class QYSelectedCommodityInfo;
 @class QYMessageCardModel;
-
+@class QYSessionViewController;
 
 /**
  *  QYSessionViewDelegate：右上角入口以及聊天内容区域按钮点击回调
@@ -30,7 +30,11 @@
  *  点击聊天内容区域的按钮回调（对于平台电商来说，这里可以考虑放置“会话列表入口“）
  */
 - (void)onTapSessionListEntrance;
-
+/**
+ *  商品、订单半屏弹框
+ *  isGoods YES代表商品
+ */
+- (void)showGoodsOrOrderView:(BOOL)isGoods viewController:(QYSessionViewController *)sessionViewController;
 @end
 
 
@@ -362,6 +366,7 @@ typedef void (^QYEvaluationCompletion)(QYEvaluationState state);
  *  该方法需要在导航栏左侧返回按钮的点击事件时调用，并且将popViewControllerAnimated放在complete中；如果是present方式，则需要在关闭界面的点击事件中调用此方法
  */
 - (void)showEvaluationAlert:(BOOL)isOpenAlert openEvaluation:(BOOL)isOpenEvaluation complete:(QYCompletion)complete;
+
 @end
 
 

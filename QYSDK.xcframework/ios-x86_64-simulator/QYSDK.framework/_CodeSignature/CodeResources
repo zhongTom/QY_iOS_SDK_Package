@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/QYCommodityInfo.h</key>
 		<data>
-		o2mQwlekSCFX4+voN5yfNr28/+o=
+		NCt7jvhq8qxSZY8k1/9PAYuRL8o=
 		</data>
 		<key>Headers/QYConversationManager.h</key>
 		<data>
@@ -122,7 +122,7 @@
 		</data>
 		<key>Headers/QYSessionViewController.h</key>
 		<data>
-		4xc/govVMbDkjSXpLvIGpOs9Pk8=
+		ln2LhC6dA6zr6jMacA9rHu2BA3w=
 		</data>
 		<key>Headers/QYSource.h</key>
 		<data>
@@ -146,7 +146,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		+cCU3kyHEFuGlIxzvm6UXs1MkF4=
+		QLkDfgFVfJlsfpFsBrzN1XT8pe8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -170,11 +170,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			o2mQwlekSCFX4+voN5yfNr28/+o=
+			NCt7jvhq8qxSZY8k1/9PAYuRL8o=
 			</data>
 			<key>hash2</key>
 			<data>
-			8/Ft/sm9So4MwqyaELik9SlimVY2HcgvXptTakM/tsE=
+			3iYVgYyGtyyzGmBdqKwlrinL+E/cSuMWsepTjKJiKgA=
 			</data>
 		</dict>
 		<key>Headers/QYConversationManager.h</key>
@@ -478,11 +478,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			4xc/govVMbDkjSXpLvIGpOs9Pk8=
+			ln2LhC6dA6zr6jMacA9rHu2BA3w=
 			</data>
 			<key>hash2</key>
 			<data>
-			3Y46q5iwv0wDek9xlRB6lOp3xKIPM9UHfLhW5LB8P8M=
+			quQRYb6yUIGLOuDY3+VDdFJprH/rFgSb8a81L0QwRHs=
 			</data>
 		</dict>
 		<key>Headers/QYSource.h</key>
