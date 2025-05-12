@@ -48,6 +48,8 @@
 @property (nonatomic, copy) NSString *originalPrice;
 //订单数量
 @property (nonatomic, copy) NSString *orderCount;
+//商品数量
+@property (nonatomic, copy) NSString *productCount;
 /**
  *  商品图片链接，字符数要求小于1000
  */
