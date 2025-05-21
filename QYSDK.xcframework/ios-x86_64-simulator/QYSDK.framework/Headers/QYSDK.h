@@ -293,8 +293,10 @@ typedef NS_ENUM(NSInteger, QYLanguage) {
  *  @discussion 清理全部帐号信息会登出当前帐号，并新建匿名帐号，请在调用完成后使用setUserInfo:接口恢复为有名帐号；请在合理时机调用本接口
  */
 - (void)cleanAccountInfoForAll:(BOOL)cleanAll completion:(QYCleanCacheCompletion)completion;
-
-
+/**
+    是否需要请求客服，YES需要请求，NO不需要请求
+ */
+- (BOOL)shouldRequestService;
 #pragma mark - Fusion
 
 /**
